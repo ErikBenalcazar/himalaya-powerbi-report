@@ -71,3 +71,9 @@ The model has two star schemas in one file:
 **DAX** measures cover margin and margin %, YTD revenue, average revenue per week, Top N / Bottom N ranking, average age, tenure, and total salary cost including employer fees, pension and holiday pay.
 
 **Design:** consistent dark theme with gold accents, KPI cards at the top, and drill-down so the report goes from overview to detail.
+
+---
+
+<p align="center"><i>Built by <a href="https://github.com/ErikBenalcazar">Erik Benalcazar Lopez</a> · Business Intelligence Analytics student at Nackademin</i></p>
+
+
