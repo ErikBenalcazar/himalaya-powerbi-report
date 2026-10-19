@@ -61,9 +61,16 @@ My job: turn their questions into a clear, interactive report that a store manag
 
 ## 🛠️ How it was built
 
-- **Data model:** star schema with fact tables for sales and hours, and dimension tables for date, product, department and employee
-- **DAX:** measures for margin, margin %, YTD revenue, average revenue per week, Top N ranking and salary cost
-- **Design:** consistent dark theme with gold accents, KPI cards at the top, and drill-down so the report goes from overview to detail
+![Data model](Images/model.png)
+
+The model has two star schemas in one file:
+
+- **Sales:** `Fact_Sales` (revenue, quantity, margin) linked to `Dim_Date` and `Dim_Product`, with `Avdelning` attached to products so sales can be drilled from department → product group → article
+- **HR:** `Timesheet` (hours per employee and month) linked to `Employee register` (salary, hourly wage, employment type, pension, employer fees) and `Dim_Month`, with `Working hours` giving the available hours per month
+
+**DAX** measures cover margin and margin %, YTD revenue, average revenue per week, Top N / Bottom N ranking, average age, tenure, and total salary cost including employer fees, pension and holiday pay.
+
+**Design:** consistent dark theme with gold accents, KPI cards at the top, and drill-down so the report goes from overview to detail.
 
 ## 🚧 Next steps
 
