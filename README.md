@@ -72,11 +72,4 @@ The model has two star schemas in one file:
 
 **Design:** consistent dark theme with gold accents, KPI cards at the top, and drill-down so the report goes from overview to detail.
 
-## 🚧 Next steps
-
-- [ ] Campaign analysis page (which campaigns ran, products included, discount vs. regular price, best campaign)
-- [ ] Finance page (income statement per month and year, with YTD)
-
----
-
-<p align="center"><i>Built by <a href="https://github.com/ErikBenalcazar">Erik Benalcazar Lopez</a> · Business Intelligence Analytics student at Nackademin</i></p>
+ess Intelligence Analytics student at Nackademin</i></p>
