@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:E8C468&height=160&section=header&text=Himalaya%20K%C3%B6tt%20%26%20Video&fontSize=40&fontColor=ffffff&fontAlignY=40" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:E8C468&height=120&section=header" width="100%"/>
 </p>
+
+<h1 align="center">🥩 Himalaya Kött & Video</h1>
+<p align="center"><i>Power BI sales & HR report for a retail business</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge"/>
